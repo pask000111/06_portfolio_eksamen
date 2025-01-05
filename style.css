@@ -368,6 +368,17 @@ F7F4EA beige
 
 /****************** 5 Grundlæggende indhold ***********************/
 
+.tema4box {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e0e1bf;
+  /* border: 1px solid #ccc; */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 /*********** Alle tema sider ***********************/
 
 .indhold {
