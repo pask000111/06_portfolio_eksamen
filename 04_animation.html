@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta name="robots" content="noindex" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grundlæggende animation</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Shrikhand&family=Sorts+Mill+Goudy:ital@0;1&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html">
+          <img src="./ikoner/logo.webp" alt="logo" />
+        </a>
+      </div>
+
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Forside</a></li>
+          <li class="liste">
+            <a href="#">Portfolio</a>
+            <ul class="liste_indhold">
+              <li><a href="02_web.html">Web</a></li>
+              <li><a href="03_ux.html">UX/UI</a></li>
+              <li><a href="04_animation.html">Animation</a></li>
+              <li><a href="05_indhold.html">Indhold</a></li>
+            </ul>
+          </li>
+
+          <li><a href="om_mig.html">Om mig</a></li>
+        </ul>
+
+        <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+
+      <script src="script.js"></script>
+    </header>
+
+    <main>
+      <h1>TEMA 4: Grundlæggende animation</h1>
+
+      <div class="tema4box">
+        <div class="indhold">
+          <h2>Temabeskrivelse</h2>
+          <p>
+            I animationstemaet bliver der introduceret til programmeringssproget javascript, som kan bruges til at kode dynamiske websites. I dette tema har vi valgt, at der skal bruges javascript sammen med css animationer til at skabe et lille spil. Spillet skal have et koncept og en ide, der selv findes frem til og der skal selv designes alle elementer og kodes spillet helt fra bunden. På dette tema lægges der vægt på, at der begyndes at arbejde professionelt med formgivning af grafiske elementer. Der analyseres spildesign og ser på, hvordan man engagerer brugerne gennem teori og konventioner inden for UI- elementer, figurelementer, baggrundsdesign og kompositionsteknikker. Der udvikles et eget spil design efter moderne konventioner og rentegner grafikken til spillet i Adobe
+            Illustrator. Gennem arbejdet med eget spil læres der at arbejde med aktivitets-og statemachine-diagrammer, som bruges til at planlægge det mere komplicerede interaktive flow.
+          </p>
+        </div>
+      </div>
+
+      <div class="grid_4_1">
+        <h2>Introduktion</h2>
+        <p>I dette forløb fik jeg til opgave at skabe et spil, ud fra egen ide og helt fra bunden. Jeg blev derfor introduceret for Adobe Illustrator, hvor jeg tegnede spil-elementer og baggrundsdesign.</p>
+        <img src="billeder/assetliste.webp" alt="assetliste" />
+      </div>
+
+      <div class="grid_4_2">
+        <h2>Spillet 'Tolderen Tom'</h2>
+        <p>Jeg startede med at lave research og brainstorms, og hurtigt fandt jeg ud af at jeg ville lave et spil, som handlede om en tolder, som skulle fange de “rigtige kufferter” og undgå de “forkerte kufferter”.</p>
+        <img src="billeder/pitch.webp" alt="pitch" />
+      </div>
+
+      <div class="grid_4_3">
+        <h3>Min proces</h3>
+        <h3>Papirsprototype</h3>
+        <p>Jeg startede med at tegne min ide, om hvordan mit spil skulle se ud på et stykke papir. Her fandt jeg desuden inspiration fra bouba-effekten og stil-udgangspunktet ‘Toca Boca’,</p>
+        <p>Herefter begyndte jeg at skabe alle elementerne og baggrundsdesignet i Adobe Illustrator.</p>
+        <p>Da jeg endelig havde fået tegnet og skabt mine elementer og baggrunde i Illustrator konverterede jeg dem til SVG’er. SVG står for Scalable Vector Graphics, som er et billedeformat, som gør det muligt at bevare kvaliteten uanset størrelse, da den er skalerbar og vektorbaseret.</p>
+        <img src="billeder/tegning4.webp" alt="tegning4" />
+      </div>
+
+      <div class="grid_4_4">
+        <h3>Aktivitets- og statemachine-diagrammer</h3>
+        <p>Efter at have skabt alle mine SVG’er lavede jeg først et aktivitetsdiagram, som viser, hvad der sker i spillet, og hvad der sker, når der trykkes på de forskellige elementer.</p>
+        <img src="billeder/aktivitetsdiagram.webp" alt="aktivitetsdiagram" />
+        <p>Herefter udarbejdede jeg et statemachine-diagram, som er et mere detaljeret diagram over, hvilke handlinger der fører til hvad i spillet, og det er til stor hjælp, når spillet skal kodes.</p>
+        <img src="billeder/statemachinediagram.webp" alt="statemachinediagram" />
+      </div>
+
+      <div class="grid_4_5">
+        <h3>Animationer og JavaScript</h3>
+        <img src="billeder/animationer.webp" alt="animationer" />
+        <p>For at få spillets elementer til at bevæge sig, lavede jeg CSS-animationer, dette ved brug af keyframes og funktioner. Keyframes definerer de forskellige tilstande, som en animation skal gå igennem. Derudover brugte jeg JavaScript til at skabe mere komplekse animationer og funktioner, som ikke kan laves i CSS alene.</p>
+        <p>Hvis du vil se hele mit spil, så klik her:</p>
+        <div class="knap_link">
+          <a href="https://paulinekea.dk/kea/04_animation/website/index.html">Link</a>
+        </div>
+      </div>
+
+      <div class="grid_4_6">
+        <h2>Næste tema:</h2>
+        <a href="05_indhold.html" class="box4"><h2>Tema 5: Grundlæggende Indhold</h2></a>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
