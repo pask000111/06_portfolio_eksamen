@@ -11,12 +11,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Shrikhand&family=Sorts+Mill+Goudy:ital@0;1&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet" />
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="layout.css" />
   </head>
   <body>
     <header>
       <div class="logo">
         <a href="index.html">
-          <img src="./ikoner/logo.webp" alt="logo" />
+          <img src="ikoner/logo.webp" alt="logo" />
         </a>
       </div>
 
@@ -24,7 +25,7 @@
         <ul class="menu">
           <li><a href="index.html">Forside</a></li>
           <li class="liste">
-            <a href="#">Portfolio</a>
+            <a id="aktiv" href="#">Portfolio</a>
             <ul class="liste_indhold">
               <li><a href="02_web.html">Web</a></li>
               <li><a href="03_ux.html">UX/UI</a></li>
@@ -56,36 +57,98 @@
         </div>
       </div>
 
-      <div class="grid_2_1">
-        <h2>Introduktion</h2>
-        <img src="billeder/visitkort.webp" alt="visitkort" />
-        <p>I dette forløb blev jeg introduceret til HTML, Hypertext Markup Language, og CSS, Cascading Style Sheets. HTML er fundamentet af hjemmesidens struktur og CSS er stylingen af strukturen. Det første jeg fik til opgave var at lave et visitkort i HTML og lægge det op på mit nye domæne via FileZilla.</p>
-      </div>
+      <div class="none">
+        <div class="grid1">
+          <div>
+            <h2>Introduktion</h2>
+            <p>I dette forløb blev jeg introduceret til HTML, Hypertext Markup Language, og CSS, Cascading Style Sheets. HTML er fundamentet af hjemmesidens struktur og CSS er stylingen af strukturen. Det første jeg fik til opgave var at lave et visitkort i HTML og lægge det op på mit nye domæne via FileZilla.</p>
+          </div>
+          <img src="billeder/visitkort.webp" alt="visitkort" />
+        </div>
 
-      <div class="grid_2_2">
-        <h3>Grid og media queries</h3>
-        <img src="billeder/gridblomster.webp" alt="gridblomster" />
-        <p>Derudover blev jeg introduceret til anvendelsen af grid og media queries gennem flere små opgaver. Ved hjælp af grid er det muligt at opdele indhold i kolonner og rækker. Dette gøres ved at indramme indholdet i HTML’en, og derefter bruge display: grid i CSS’en. Media queries bruges til at gøre sitet responsivt i de forskellige skærmstørrelser.</p>
-      </div>
+        <div class="grid1">
+          <div>
+            <h3>Grid og media queries</h3>
 
-      <div class="grid_2_3">
-        <h2>Studiestartsprøven</h2>
-        <img src="billeder/studiestartsprøve.webp" alt="studiestartsprøve" />
-        <p>Efter at have fået flere færdigheder indenfor kodning fik jeg uddelt en studiestartsopgave, hvor jeg skulle sætte tekst og billeder ind i HTML’en og designe det i CSS’en.</p>
-      </div>
+            <p>Derudover blev jeg introduceret til anvendelsen af grid og media queries gennem flere små opgaver. Ved hjælp af grid er det muligt at opdele indhold i kolonner og rækker. Dette gøres ved at indramme indholdet i HTML’en, og derefter bruge display: grid i CSS’en. Media queries bruges til at gøre sitet responsivt i de forskellige skærmstørrelser.</p>
+          </div>
+          <img src="billeder/gridblomster.webp" alt="gridblomster" />
+        </div>
 
-      <div class="grid_2_4">
-        <h3>Min proces</h3>
-        <img src="billeder/komponenter.webp" alt="komponenter" />
-        <p>Jeg startede med at opbygge mit site i HTML, hvor jeg skabte en struktur ud fra de givne layoutdiagrammer. Ved hjælp af grid var det muligt at sætte billeder og tekst ind, efter hvordan opgaven lød. Dernæst satte jeg det indhold ind, tekst og billeder, som skulle bruges på sitet. Til sidst stylede jeg min side, ved hjælp af CSS, hvor jeg selv valgte farverne og fontene. Hvis du vil se hele mit 01_website/studiestartsprøve, så klik her:</p>
-        <div class="knap_link">
-          <a href="https://paulinekea.dk/kea/02_web/01_website/website/index.html">Link</a>
+        <div class="grid1">
+          <div>
+            <h2>Studiestartsprøven</h2>
+          </div>
+          <p>Efter at have fået flere færdigheder indenfor kodning fik jeg uddelt en studiestartsopgave, hvor jeg skulle sætte tekst og billeder ind i HTML’en og designe det i CSS’en.</p>
+          <img src="billeder/studiestartsprøve.webp" alt="studiestartsprøve" />
+        </div>
+
+        <div class="grid1">
+          <div>
+            <h3>Min proces</h3>
+            <p>Jeg startede med at opbygge mit site i HTML, hvor jeg skabte en struktur ud fra de givne layoutdiagrammer. Ved hjælp af grid var det muligt at sætte billeder og tekst ind, efter hvordan opgaven lød. Dernæst satte jeg det indhold ind, tekst og billeder, som skulle bruges på sitet. Til sidst stylede jeg min side, ved hjælp af CSS, hvor jeg selv valgte farverne og fontene.</p>
+          </div>
+
+          <img src="billeder/komponenter.webp" alt="komponenter" />
+
+          <div>
+            <p>Hvis du vil se hele mit 01_website/studiestartsprøve, så klik her:</p>
+
+            <div class="knap_link">
+              <a href="https://paulinekea.dk/kea/02_web/01_website/website/index.html">Link</a>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h2>Næste tema:</h2>
+          <a href="03_ux.html" class="box2"><h2>Tema 3: Grundlæggende UX/UI</h2></a>
         </div>
       </div>
 
-      <div class="grid_2_5">
-        <h2>Næste tema:</h2>
-        <a href="03_ux.html" class="box2"><h2>Tema 3: Grundlæggende UX/UI</h2></a>
+      <div class="none1 grid">
+        <div class="grid1">
+          <div>
+            <h2>Introduktion</h2>
+            <p>I dette forløb blev jeg introduceret til HTML, Hypertext Markup Language, og CSS, Cascading Style Sheets. HTML er fundamentet af hjemmesidens struktur og CSS er stylingen af strukturen. Det første jeg fik til opgave var at lave et visitkort i HTML og lægge det op på mit nye domæne via FileZilla.</p>
+          </div>
+          <img src="billeder/visitkort.webp" alt="visitkort" />
+        </div>
+
+        <div class="grid1">
+          <img src="billeder/gridblomster.webp" alt="gridblomster" />
+          <div>
+            <h3>Grid og media queries</h3>
+
+            <p>Derudover blev jeg introduceret til anvendelsen af grid og media queries gennem flere små opgaver. Ved hjælp af grid er det muligt at opdele indhold i kolonner og rækker. Dette gøres ved at indramme indholdet i HTML’en, og derefter bruge display: grid i CSS’en. Media queries bruges til at gøre sitet responsivt i de forskellige skærmstørrelser.</p>
+          </div>
+        </div>
+
+        <div class="grid1">
+          <div>
+            <h2>Studiestartsprøven</h2>
+            <p>Efter at have fået flere færdigheder indenfor kodning fik jeg uddelt en studiestartsopgave, hvor jeg skulle sætte tekst og billeder ind i HTML’en og designe det i CSS’en.</p>
+          </div>
+          <img src="billeder/studiestartsprøve.webp" alt="studiestartsprøve" />
+        </div>
+
+        <div class="grid1">
+          <img src="billeder/komponenter.webp" alt="komponenter" />
+          <div>
+            <h3>Min proces</h3>
+            <p>Jeg startede med at opbygge mit site i HTML, hvor jeg skabte en struktur ud fra de givne layoutdiagrammer. Ved hjælp af grid var det muligt at sætte billeder og tekst ind, efter hvordan opgaven lød. Dernæst satte jeg det indhold ind, tekst og billeder, som skulle bruges på sitet. Til sidst stylede jeg min side, ved hjælp af CSS, hvor jeg selv valgte farverne og fontene.</p>
+            <p>Hvis du vil se hele mit 01_website/studiestartsprøve, så klik her:</p>
+
+            <div class="knap_link">
+              <a href="https://paulinekea.dk/kea/02_web/01_website/website/index.html">Link</a>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h2>Næste tema:</h2>
+          <a href="03_ux.html" class="box2"><h2>Tema 3: Grundlæggende UX/UI</h2></a>
+        </div>
       </div>
     </main>
     <footer></footer>

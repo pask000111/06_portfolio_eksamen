@@ -1,0 +1,48 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  align-self: stretch;
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/********************* Overorndet for alle sider ***************/
+
+.none1 {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .none {
+    display: none;
+  }
+  .grid {
+    display: grid;
+  }
+}
+
+/******************** Forside ********************/
+
+/********************** 2 Grundlæggende web *****************/
+
+@media (min-width: 800px) {
+  .grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+}
+
+/*********************** 3  Grundlæggende UX/UI *****************/
