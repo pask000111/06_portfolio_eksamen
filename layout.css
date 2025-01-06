@@ -13,11 +13,6 @@ img {
   align-self: stretch;
 }
 
-main {
-  max-width: 1200px;
-  margin: auto;
-}
-
 /********************* Overorndet for alle sider ***************/
 
 .none1 {
@@ -31,18 +26,26 @@ main {
   .grid {
     display: grid;
   }
-}
 
-/******************** Forside ********************/
-
-/********************** 2 Grundlæggende web *****************/
-
-@media (min-width: 800px) {
   .grid1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    gap: 40px;
+    padding: 60px;
+  }
+
+  .grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+
+  .container_kasser_1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
   }
 }
-
-/*********************** 3  Grundlæggende UX/UI *****************/

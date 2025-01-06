@@ -302,8 +302,9 @@ F7F4EA beige
   align-items: center;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: left;
+  text-align: center;
   text-decoration: none;
+  justify-content: center;
 }
 .box2 {
   width: 500px;
@@ -313,8 +314,9 @@ F7F4EA beige
   align-items: center;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: left;
+  text-align: center;
   text-decoration: none;
+  justify-content: center;
 }
 
 .box3 {
@@ -325,8 +327,9 @@ F7F4EA beige
   align-items: center;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: left;
+  text-align: center;
   text-decoration: none;
+  justify-content: center;
 }
 
 .box4 {
@@ -337,8 +340,9 @@ F7F4EA beige
   align-items: center;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: left;
+  text-align: center;
   text-decoration: none;
+  justify-content: center;
 }
 
 .box:hover {
@@ -353,6 +357,7 @@ F7F4EA beige
   margin: auto;
   padding: 20px;
   background-color: #d1e2dc;
+
   /* border: 1px solid #ccc; */
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -404,7 +409,3 @@ F7F4EA beige
 }
 
 /******************** Om mig ************************/
-
-ul {
-  list-style-type: disc;
-}
