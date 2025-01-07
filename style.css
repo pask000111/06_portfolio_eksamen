@@ -195,12 +195,16 @@ h2 {
   font-family: "Sorts Mill Goudy", serif;
   color: #18528e;
   font-size: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 h3 {
   font-family: "Sorts Mill Goudy", serif;
   color: #18528e;
   font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 p {
@@ -208,6 +212,7 @@ p {
   color: black;
   font-size: large;
   line-height: 2rem;
+  padding-bottom: 10px;
 }
 
 footer {
@@ -363,6 +368,9 @@ F7F4EA beige
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.billede2 {
+  padding-top: 10px;
+}
 /****************** 3 Grundlæggende ux/ui *******************/
 
 .tema3box {
