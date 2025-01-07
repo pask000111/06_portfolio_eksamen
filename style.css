@@ -214,6 +214,17 @@ footer {
   background-color: #547aa1;
   padding-left: 1rem;
   padding: 35px;
+  font-size: 10px;
+}
+
+footer p {
+  color: #fff3c9;
+  font-size: small;
+}
+
+.footer {
+  width: 30px;
+  height: 30px;
 }
 
 /************ Knap *****************/
