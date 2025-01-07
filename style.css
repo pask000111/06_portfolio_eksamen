@@ -363,6 +363,15 @@ F7F4EA beige
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.næste-tema {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
 /****************** 3 Grundlæggende ux/ui *******************/
 
 .tema3box {
