@@ -201,20 +201,16 @@ h2 {
   font-family: "Sorts Mill Goudy", serif;
   color: #18528e;
   font-size: 40px;
-  /* padding-top: 15px;
+  padding-top: 15px;
   padding-bottom: 15px;
-  padding-left: 20px;
-  padding-right: 20px; */
 }
 
 h3 {
   font-family: "Sorts Mill Goudy", serif;
   color: #18528e;
   font-size: 30px;
-  /* padding-top: 10px;
+  padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px; */
 }
 
 p {
@@ -222,9 +218,7 @@ p {
   color: black;
   font-size: large;
   line-height: 2rem;
-  /* padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px; */
+  padding-bottom: 10px;
 }
 
 footer {
@@ -262,7 +256,8 @@ footer p {
   text-align: center;
   transition: background-color 0.3s ease;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-bottom: 10px;
+  margin-bottom: 40px;
+  margin-left: 10px;
 }
 
 .knap_link a {
