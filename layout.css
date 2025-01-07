@@ -13,28 +13,41 @@ img {
   align-self: stretch;
 }
 
-/********************* Overorndet for alle sider ***************/
+/********************* Overorndet for alle tema-sider ***************/
 
-.none1 {
-  display: none;
+.grid {
+  display: grid;
+  gap: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container_kasser_1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container_kasser_2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container_kasser_3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container_kasser_4 {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 @media (min-width: 800px) {
-  .none {
-    display: none;
-  }
   .grid {
     display: grid;
   }
 
   .grid1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    padding: 60px;
-  }
-
-  .grid2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
@@ -48,8 +61,6 @@ img {
     grid-column: 1/2;
     grid-row: 1/2;
   }
-
-  /**************** Tema 2 ********************/
 
   .grid-2-1 {
     display: grid;

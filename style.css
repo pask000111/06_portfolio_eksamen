@@ -287,13 +287,6 @@ F7F4EA beige
   z-index: -1;
 }
 
-.container_kasser {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  max-width: 800px;
-}
-
 .box1 {
   width: 500px;
   height: 100px;
